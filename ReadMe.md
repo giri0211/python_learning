@@ -1,8 +1,39 @@
 # Python fundamentals
 
+## Python installation
+
+1. Download and install the [latest python version](https://www.python.org/downloads/) for windows machine.
+
+1. check the version of python installed
+
+    ```cmd
+    python --version
+    ```
+
+1. If any errors check where python is installed and add that folder path to system environment variable PATH. This should make python run from anywhere in your system.
+
+    ```cmd
+    where python
+    ```
+
+1. Open Command Prompt and check if python interpreter is up and running
+
+    ```cmd
+    python
+    ```
+
+    ![alt text](./images/python_up.png)
+
+## Configure Visual studio code to wrok on python
+
+1. Add the Python, Pylance Extensions from Microsoft, if it not already installed.
+1. go to Menu option in VSCode and select the right version of python interpreter.
+below is the menu navigation View -> Command Palette -> Select: Python Interpreter.
+1. VSCode is set for working on python projects.
+
 ## Create virtual environment
 
-to avoid conflicts between differetn application dependeing in different versions of the packAges or libraries, create virtual environment specific to each project. this vistual environment helps in seperating the installable dependies by project.
+to avoid conflicts between multiple applications depending on different versions of a given package or libraries, create virtual environment specific to each project. this virtual environment helps to separate the installable dependencies by project.
 
 1. The below command is used to crate a virtual environment in the python project. This creates a folder with name **venv** in the project directory.
 
@@ -33,4 +64,3 @@ to avoid conflicts between differetn application dependeing in different version
     rm ./venv
     # say Yes for the following option to deleted the virtual environment.
     ```
-
