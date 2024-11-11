@@ -1,0 +1,3 @@
+'LOL': 'laugh out loud'
+'IDK': 'I dont know
+'TBH': 'to be honest'

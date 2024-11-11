@@ -7,3 +7,4 @@ json = response.json()
 
 for person in json.get("people"):
     print(person['name'])
+    

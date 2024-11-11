@@ -64,3 +64,6 @@ to avoid conflicts between multiple applications depending on different versions
     rm ./venv
     # say Yes for the following option to deleted the virtual environment.
     ```
+
+## fast api
+ refer to [fast api section](./fundamentals/basics/fast_api/ReadMe.md#fast-api) of the documentation.
