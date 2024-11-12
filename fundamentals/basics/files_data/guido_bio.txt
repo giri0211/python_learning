@@ -1,0 +1,4 @@
+Guido van Rossum
+hello Guido.
+I am reading this file content.
+this file is moved
