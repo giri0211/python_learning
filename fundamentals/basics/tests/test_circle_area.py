@@ -1,5 +1,5 @@
 from math import pi
-from fundamentals.basics.unit_tests.circle_area import calc_cricle_area
+from fundamentals.basics.circle_area.circle_area import calc_cricle_area
 import unittest
 
 class TestCircleArea(unittest.TestCase):

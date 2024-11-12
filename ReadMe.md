@@ -67,3 +67,17 @@ to avoid conflicts between multiple applications depending on different versions
 
 ## fast api
  refer to [fast api section](./fundamentals/basics/fast_api/ReadMe.md#fast-api) of the documentation.
+
+## Unit tests
+
+Unit are meant to help the code testing easy, covering all the possible workflowa.
+
+run the unit tests from the root project folder
+
+This command runs specific tests  from given unit test file `test_circle_area.py` from `tests` folder
+
+```cmd
+python -m unittest .\fundamentals\basics\tests\test_circle_area.py
+```
+
+For more details refer [unit test](./fundamentals/basics/tests/ReadMe.md) documentation.
